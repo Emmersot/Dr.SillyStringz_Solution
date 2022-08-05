@@ -5,7 +5,7 @@ using System.IO;
 
 namespace ProjectName.Models
 {
-  public class ProjectNameContextFactory : IDesignTimeDbContextFactory<ToDoListContext>
+  public class ProjectNameContextFactory : IDesignTimeDbContextFactory<ProjectNameContext>
   {
 
     ProjectNameContext IDesignTimeDbContextFactory<ProjectNameContext>.CreateDbContext(string[] args)

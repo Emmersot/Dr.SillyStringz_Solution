@@ -5,7 +5,7 @@ using ProjectName.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ProjectNamne.Controllers
+namespace ProjectName.Controllers
 {
   public class ItemsController : Controller
   {
