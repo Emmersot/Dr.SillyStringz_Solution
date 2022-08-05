@@ -1,14 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace ProjectName.Models
+namespace SillyStingz.Models
 {
-  public class ProjectNameContext : DbContext
+  public class SillyStingzContext : DbContext
   {
     public DbSet<Category> Categories { get; set; }
     public DbSet<Item> Items { get; set; }
     public DbSet<CategoryItem> CategoryItem { get; set; }
 
-    public ProjectNameContext(DbContextOptions options) : base(options) { }
+    public SillyStingzContext(DbContextOptions options) : base(options) { }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

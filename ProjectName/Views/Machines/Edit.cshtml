@@ -1,0 +1,28 @@
+@{
+  Layout = "_Layout";
+}
+
+@model SillyStingz.Models.Machine
+<div id=Header>
+  <h2 id=HeaderTest>Edit</h2>
+
+  <h4>Edit this task: @Html.DisplayFor(model => model.Name)</h4>
+</div>
+<div id=MainBody>
+  @using (Html.BeginForm())
+  {
+    @Html.HiddenFor(model => model.MachineId)
+
+    @Html.LabelFor(model => model.Name)
+    @Html.EditorFor(model => model.Name)
+
+    @Html.LabelFor(model => model.Distance)
+    @Html.TextBoxFor(model => model.Distance)
+
+    @Html.Label("Select Engineer")
+    @Html.DropDownList("EngineerId")
+
+  <input type="submit" value="Save" class="glow-on-hover" />
+  }
+  <p>@Html.ActionLink("Back to list", "Index")</p>
+</div>

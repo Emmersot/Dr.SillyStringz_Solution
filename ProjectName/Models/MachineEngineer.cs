@@ -1,4 +1,4 @@
-namespace ProjectName.Models
+namespace SillyStingz.Models
 {
   public class CategoryItem
   {       
