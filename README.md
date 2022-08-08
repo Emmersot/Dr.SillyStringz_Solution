@@ -21,7 +21,7 @@
 ---
 ## Description
 
-_{This program will provide a way for Dr.Sillystringz to keep track of machine repairs.}_
+_{This program will provide a way for Dr.Sillytringz to keep track of machine repairs.}_
 
 ---
 ## Setup/Installation Requirements
@@ -30,8 +30,8 @@ _{This program will provide a way for Dr.Sillystringz to keep track of machine r
 <details>
 <summary><strong>For Running</strong></summary>
 Navigate to  
-    <pre>PierreMVCapplication
-    ├── <strong>Pierre</strong></pre>
+    <pre>Dr.SillyStringz_Solution
+    ├── <strong>Factory</strong></pre>
     └── Pierre.Tests
     
  Run ```$ dotnet install``` in the console 
@@ -42,9 +42,9 @@ Navigate to
 <details>
 <summary><strong>For Testing</strong></summary>
 Navigate to  
-    <pre>PierreMVCapplication
-    ├── Pierre
-    └── <strong>Pierre.Tests</strong></pre>
+    <pre>Dr.SillyStringz_Solution
+    ├── Factory
+    └── <strong>Factory.Tests</strong></pre>
 
 Run ```$ dotnet test``` in the console
 
